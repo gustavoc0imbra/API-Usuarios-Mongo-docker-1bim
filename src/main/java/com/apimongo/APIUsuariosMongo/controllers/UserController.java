@@ -3,7 +3,6 @@ package com.apimongo.APIUsuariosMongo.controllers;
 import com.apimongo.APIUsuariosMongo.constants.Constants;
 import com.apimongo.APIUsuariosMongo.models.User;
 import com.apimongo.APIUsuariosMongo.services.UserService;
-import org.apache.tomcat.util.bcel.Const;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -12,6 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin(origins = "*")
 public class UserController {
     @Autowired
     private UserService userService;
