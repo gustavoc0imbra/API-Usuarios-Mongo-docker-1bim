@@ -3,6 +3,10 @@
 Um repositório que faz parte do conjunto entre outros 2 repositórios, que são aplicações que salvam e exibem os dados de usuários. Uma é responsável por exibir os dados que salvos em coleções no MySQL e a outra exibe ambos os dados das APIs.
 Neste projeto é disponibilizado uma API que persiste e retorna dados contidos na tabela MongoDB.
 
+## Arquitetura Projeto:
+![ArqProjeto](https://github.com/user-attachments/assets/7d471ca0-4699-45af-b673-6b0471e5b959)
+
+
 ## Projetos Relacionados:
 - API que persiste o dado no MySQL 🐬: [API MySQL](https://github.com/gustavoc0imbra/API-Usuarios-Mysql-docker-1bim)
 - Aplicação frontend: [App React](https://github.com/gustavoc0imbra/frontusuarios-proj1bim-docker)
